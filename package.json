@@ -1,6 +1,6 @@
 {
   "name": "gulp-pilot-merger-preprocess",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A gulp-pilot merger plugin for preprocess configs",
   "main": "index.js",
   "scripts": {
