@@ -1,0 +1,19 @@
+{
+  "name": "gulp-pilot-merger-preprocess",
+  "version": "1.0.0",
+  "description": "A gulp-pilot merger plugin for preprocess configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-pilot",
+    "gulpfrienldy",
+    "gulpplugin",
+    "preprocess",
+    "gulp-pilot-merger"
+  ],
+  "author": "Andreas Deuschlinger",
+  "license": "MIT"
+}
