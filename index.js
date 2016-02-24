@@ -1,5 +1,11 @@
 modules.exports = preprocessMerger;
 
+/**
+ * Merges preprocess options through complementing with a default config file.
+ *
+ * @param {Object} config - The new config to be merged with defaultConfig.
+ * @param {Object} defaultConfig - The default config used to complement the new config.
+ */
 function preprocessMerger(config, defaultConfig) {
     var preprocess = config.preprocess;
     var defaultPreprocess = defaultConfig.preprocess;
