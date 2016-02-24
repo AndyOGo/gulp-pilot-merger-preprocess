@@ -6,6 +6,32 @@ Install `gulp-pilot-merger-preprocess` as a development dependency:
 npm install --save-dev gulp-pilot-merger-preprocess
 ```
 
+# Usage
+
+After you have installed this plugin you can utilize it in your .pilotrc.{js,json} assuming you use gulp-pilot and preprocess:
+
+> .pilotrc.js
+
+````javascript
+module.exports = {
+    merger: {
+        'preprocess': 'gulp-pilot-merger-preprocess'
+    }
+};
+````
+
+Or as simple JSON:
+
+> .pilotrc.js
+
+````javascript
+{
+    "merger": {
+        "preprocess": "gulp-pilot-merger-preprocess"
+    }
+}
+````
+
 # API Documentation
 
 <a name="preprocessMerger"></a>
