@@ -1,4 +1,4 @@
-modules.exports = preprocessMerger;
+module.exports = preprocessMerger;
 
 /**
  * Merges preprocess options through complementing with a default config file.
