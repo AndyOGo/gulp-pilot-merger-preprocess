@@ -22,9 +22,9 @@ module.exports = {
 
 Or as simple JSON:
 
-> .pilotrc.js
+> .pilotrc.json
 
-````javascript
+````JSON
 {
     "merger": {
         "preprocess": "gulp-pilot-merger-preprocess"
