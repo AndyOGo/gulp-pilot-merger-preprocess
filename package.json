@@ -4,7 +4,7 @@
   "description": "A gulp-pilot merger plugin for preprocess configs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "jsdoc2md --helper ./handlebars-helper/rawinclude.js --template README.hbs \"{./,lib/}*.js\" --verbose > README.md"
   },
   "keywords": [
     "gulp",
@@ -15,5 +15,16 @@
     "gulp-pilot-merger"
   ],
   "author": "Andreas Deuschlinger",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AndyOGo/gulp-pilot-merger-preprocess.git"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "gulp-pilot": "^1.0.8"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.3"
+  }
 }
